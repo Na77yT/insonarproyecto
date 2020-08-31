@@ -1,0 +1,156 @@
+
+// Variables
+
+$colorfondo: #F9F9F9;
+$colorfondohover: white;
+$colorletra: #183446;
+$colorheader: #005B79;
+$colorcontraste: #ED5A5A;
+$colorfooter:#c0c0c0;
+
+body {
+    background-color:$colorfondo;
+    
+    max-height: 100vh;
+    margin: auto;
+    color: $colorletra;
+    font-family: 'Titillium Web', sans-serif; 
+     
+}
+
+
+//Modificadores del header
+
+header {
+
+ background-color: $colorletra;
+ 
+}
+
+.menu {
+    background-color: $colorletra;
+    color: $colorfondo;
+    min-height: 5rem;
+}
+
+//Modificadores de main index
+
+
+.novedadesindex {
+    background-color: $colorletra;
+    
+}
+
+.text-especial {
+    color: $colorfondo;
+}
+
+.btn-outline-light:hover {
+    background-color: $colorcontraste;
+}
+
+.btn-outline-dark {
+    border-color: $colorletra;
+    color: $colorletra;
+}
+
+.btn-outline-dark:hover {
+    border-color: $colorfondo;
+    color: $colorfondo;
+    background-color: $colorcontraste;
+  
+}
+
+.items {
+    text-align: left;
+
+}
+
+.items li {
+    text-align: left;
+}
+
+.consult ul {
+    list-style-type: none;
+    text-align: left;
+    vertical-align: middle;
+}
+li {
+    list-style-type: none;
+    text-align: left;
+    
+}
+.consult tr th {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.novedades {
+    border-bottom: solid;
+    border-bottom-color: #b3aeaeda;
+    border-width: 0.05rem;
+}
+
+.blogsalud {
+    border-bottom: solid;
+    border-bottom-color: #b3aeaeda;
+    border-width: 0.05rem;
+}
+
+//Modificadores del footer
+
+
+
+.btn1 {
+    display: inline-block;
+    text-align: center;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0.4rem;
+    border-radius: 30%;
+    background-color: $colorheader;
+    overflow: hidden;
+    position: relative;
+    box-shadow:  0 5px 15px -5px $colorfooter;
+    }
+
+.btn1 i {
+    line-height: 2.3rem;
+    font-size: 1rem;
+    transition: 0.2s linear;
+    color: $colorfondo;
+}
+
+.btn1 i:hover {
+    color: $colorcontraste;
+    transform: scale(1.3);
+}
+
+.footerbrand {
+    color: $colorfondo;
+}
+
+.footerbrand:hover {
+    color: $colorcontraste
+}
+
+.footer-text {
+    font-size: 0.8rem;
+}
+
+.contacto {
+    border-radius: 5%;
+}
+
+input {
+    color: $colorfondo;
+}
+
+
+.enviar {
+    background-color: $colorletra;
+}
+
+.enviar:hover {
+    background-color: $colorcontraste;
+}

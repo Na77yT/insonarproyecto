@@ -1,0 +1,104 @@
+body {
+  background-color: #F9F9F9;
+  max-height: 100vh;
+  margin: auto;
+  color: #183446;
+  font-family: 'Titillium Web', sans-serif; }
+
+header {
+  background-color: #183446; }
+
+.menu {
+  background-color: #183446;
+  color: #F9F9F9;
+  min-height: 5rem; }
+
+.novedadesindex {
+  background-color: #183446; }
+
+.text-especial {
+  color: #F9F9F9; }
+
+.btn-outline-light:hover {
+  background-color: #ED5A5A; }
+
+.btn-outline-dark {
+  border-color: #183446;
+  color: #183446; }
+
+.btn-outline-dark:hover {
+  border-color: #F9F9F9;
+  color: #F9F9F9;
+  background-color: #ED5A5A; }
+
+.items {
+  text-align: left; }
+
+.items li {
+  text-align: left; }
+
+.consult ul {
+  list-style-type: none;
+  text-align: left;
+  vertical-align: middle; }
+
+li {
+  list-style-type: none;
+  text-align: left; }
+
+.consult tr th {
+  text-align: left;
+  vertical-align: middle; }
+
+.novedades {
+  border-bottom: solid;
+  border-bottom-color: #b3aeaeda;
+  border-width: 0.05rem; }
+
+.blogsalud {
+  border-bottom: solid;
+  border-bottom-color: #b3aeaeda;
+  border-width: 0.05rem; }
+
+.btn1 {
+  display: inline-block;
+  text-align: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: 0.4rem;
+  border-radius: 30%;
+  background-color: #005B79;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 5px 15px -5px #c0c0c0; }
+
+.btn1 i {
+  line-height: 2.3rem;
+  font-size: 1rem;
+  transition: 0.2s linear;
+  color: #F9F9F9; }
+
+.btn1 i:hover {
+  color: #ED5A5A;
+  transform: scale(1.3); }
+
+.footerbrand {
+  color: #F9F9F9; }
+
+.footerbrand:hover {
+  color: #ED5A5A; }
+
+.footer-text {
+  font-size: 0.8rem; }
+
+.contacto {
+  border-radius: 5%; }
+
+input {
+  color: #F9F9F9; }
+
+.enviar {
+  background-color: #183446; }
+
+.enviar:hover {
+  background-color: #ED5A5A; }
